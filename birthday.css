@@ -1,0 +1,40 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  text-align: center;
+  background-color: grey;
+}
+
+.card {
+  width: 35vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1.5rem;
+}
+
+.rsvp {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: -45px;
+  text-decoration: none;
+  font-style: italic;
+  color: rgb(133, 192, 250);
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100vw;
+    border-radius: 1.5rem;
+
+    margin-top: 130px;
+  }
+
+  .rsvp {
+    position: absolute;
+    margin-top: -130px;
+    margin-left: -40px;
+    display: inline-block;
+  }
+}
